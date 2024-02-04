@@ -19,13 +19,6 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.heading {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .center {
     display: flex;
     justify-content: center;
@@ -88,38 +81,36 @@ body {
     letter-spacing: 0.05rem;
 }
 
-.btn {
-    background-color: var(--color-lightgray);
-    border-radius: 50px;
-    line-height: 3rem;
-    font-family: 'Lexend Deca', sans-serif;
-    width: 66%;
-    max-width: 20rem;
-    margin-bottom: 0.75rem;
-}
 
 a {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 60%;
+    max-width: 15rem;
+    line-height: 3rem;
     text-decoration: none;
     font-size: 1rem;
-    width: 100%;
-    display: block;
     background-color: var(--color-lightgray);
     border-radius: 50px;
+    margin-bottom: 0.75rem;
+    text-align: center;
 }
 
 .orange-hover:hover {
     color: var(--color-lightgray);
     background-color: var(--color-orange);
+    border: 1px solid var(--color-white);
 }
 
 .light-cyan:hover {
     color: var(--color-lightgray);
     background-color: var(--color-light-cyan);
+    border: 1px solid var(--color-white);
 }
 
 .dark-cyan-hover:hover {
     color: var(--color-lightgray);
     background-color: var(--color-dark-cyan);
+    border: 1px solid var(--color-white);
 }
 
 img {
@@ -143,10 +134,6 @@ img {
 
   img {
     max-width: 30%;
-  }
-
-  .btn {
-    line-height: 2.5rem;;
   }
 
   .top {
